@@ -1,0 +1,106 @@
+body, html {
+    padding-top: 50px;
+    /*font-family: 'Source Sans Pro', sans-serif !important;*/
+    font-family: 'Nunito', sans-serif
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+    /*font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif;*/
+}
+
+#header {
+    background-color: #8b0000;
+}
+
+.nav-menu li:hover > a, .nav-menu > .menu-active > a {
+    color: #18d26e;
+}
+
+#team .member {
+    background: #8b0000;
+}
+
+.info {
+    padding: 10px;
+}
+
+.margin-top-20px {
+    margin-top: 20px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+}
+
+.margin-top-20px:last-child {
+    border-bottom: none;
+}
+
+#about .about-col .img img {
+    height: 200px;
+    width: auto !important;
+}
+
+#about .about-col p {
+    height: 100px;
+}
+
+.nav-menu ul {
+    background: darkred;
+}
+
+.nav-menu ul li a {
+    color: #e9efed;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.flat {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.btn-teco {
+    background: #8b0000 !important;
+    border-color: #8b0000 !important;
+    color: #fff !important;
+}
+
+#contact .contact-info i {
+    color: #8b0000;
+}
+
+.section-header h3::after {
+    background: #8b0000;
+}
+
+.nav-menu li:hover > a, .nav-menu > .menu-active > a {
+    color: #ffffff;
+    font-weight: bolder;
+    border-bottom: 1px solid #fff !important;
+}
+
+.back-to-top {
+    background: #ee1212;
+}
+
+#footer {
+    background: #5e0000;
+}
+
+#header #logo h1 a, #header #logo h1 a:hover {
+    border-left: 4px solid #ee1212;
+}
+
+.div-hide {
+    display: none;
+}
+
+
+#about .about-col {
+    padding-bottom: 20px;
+}

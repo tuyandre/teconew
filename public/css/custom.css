@@ -1,0 +1,69 @@
+#footer .footer-top h4 {
+    color: #aa0e0e !important;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: #cbc9c9;
+}
+
+#footer .footer-top .footer-info p {
+    color: #cbc9c9;
+}
+
+.text-danger {
+    color: #aa0e0e !important;
+}
+
+.clients img {
+    height: 100px;
+    width: auto !important;
+}
+
+#intro .carousel-container {
+    bottom: 70px !important;
+    top: auto !important;
+}
+
+#intro .carousel-item::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#intro .carousel, #intro .carousel-inner, #intro .carousel-item, #intro .carousel-item::before {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+@media (max-width: 640px) {
+    #intro {
+        height: 60vh !important;
+    }
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: #bf1c03 !important;
+}
+.carousel-indicators li {
+    background-color: #bf1c03 !important;
+}
+
+.img-fit{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+#header ,#footer{
+    background: #BF1C03 !important;
+}
+
+.back-to-top {
+    background: #7f1a0a !important;
+}
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: #343a40 !important;
+}
