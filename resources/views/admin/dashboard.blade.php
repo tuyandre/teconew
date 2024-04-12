@@ -10,7 +10,7 @@
                 <!-- small box -->
                 <div class="small-box bg-aqua">
                     <div class="inner">
-                        <h3>{{ \App\Team::count() }}</h3>
+                        <h3>{{ \App\Models\Team::count() }}</h3>
 
                         <p>Teams</p>
                     </div>
@@ -25,7 +25,7 @@
                 <!-- small box -->
                 <div class="small-box bg-green">
                     <div class="inner">
-                        <h3>{{ \App\Feedback::count() }}</h3>
+                        <h3>{{ \App\Models\Feedback::count() }}</h3>
 
                         <p>Feedback</p>
                     </div>
@@ -40,7 +40,7 @@
                 <!-- small box -->
                 <div class="small-box bg-yellow">
                     <div class="inner">
-                        <h3>{{ \App\Feedback::where("read",">",0)->count() }}</h3>
+                        <h3>{{ \App\Models\Feedback::where("read",">",0)->count() }}</h3>
 
                         <p>Read Feedback</p>
                     </div>
@@ -54,7 +54,7 @@
                 <!-- small box -->
                 <div class="small-box bg-red">
                     <div class="inner">
-                        <h3>{{ \App\Feedback::where("read","=",0)->count() }}</h3>
+                        <h3>{{ \App\Models\Feedback::where("read","=",0)->count() }}</h3>
 
                         <p>Unread Feedback</p>
                     </div>

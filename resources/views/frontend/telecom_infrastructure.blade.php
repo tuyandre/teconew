@@ -10,7 +10,7 @@
 
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active" style="background-image: url(/assets/img/intro-carousel/it3.jpg)">
+                    <div class="carousel-item active" style="background-image: url(/public/assets/img/intro-carousel/it3.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <p class="animate__animated animate__fadeInDown"><strong>Structured Cabling and Installation</strong></p>
@@ -20,7 +20,7 @@
                         </div>
                     </div>
 
-                <    <div class="carousel-item" style="background-image: url(/assets/img/intro-carousel/server1.jpg)">
+                <    <div class="carousel-item" style="background-image: url(/public/assets/img/intro-carousel/server1.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <p class="animate__animated animate__fadeInDown"><strong>Design, Build, Manage, Maintain.</strong></p>

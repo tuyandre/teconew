@@ -43,11 +43,11 @@
                                 <td>{{ $team->twitter }}</td>
                                 <td>
                                     <div class="btn-group btn-group-sm">
-                                        <button data-url="{{ route('teams.show',['id'=>$team->id]) }}"
+                                        <button data-url="{{ route('teams.show',['team'=>$team->id]) }}"
                                                 class="btn btn-default btn-sm flat js-edit">
                                             <i class="fa fa-edit"></i>
                                         </button>
-                                        <a href="{{ route('teams.delete',['id'=>$team->id]) }}"
+                                        <a href="{{ route('teams.delete',['team'=>$team->id]) }}"
                                            class="btn btn-danger btn-sm flat">
                                             <i class="fa fa-trash"></i>
                                         </a>
