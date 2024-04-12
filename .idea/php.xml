@@ -125,6 +125,62 @@
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/composer" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/fgrosse/phpasn1" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/code-lts/u2f-php-server" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/pragmarx/google2fa-qrcode" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/web-auth/webauthn-lib" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/web-auth/cose-lib" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/web-auth/metadata-service" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/phpmyadmin/sql-parser" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/phpmyadmin/twig-i18n-extension" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/phpmyadmin/motranslator" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/phpmyadmin/shapefile" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/spomky-labs/base64url" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/spomky-labs/cbor-php" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/williamdes/mariadb-mysql-kbs" />
+      <path value="$PROJECT_DIR$/mydb.teco.rw/vendor/thecodingmachine/safe" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
@@ -133,6 +189,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/mydb.teco.rw/vendor/autoload.php" />
       <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" use_configuration_file="true" />
     </phpunit_settings>
   </component>

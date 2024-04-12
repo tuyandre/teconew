@@ -8,6 +8,10 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests/Unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/mydb.teco.rw/libraries/classes" isTestSource="false" packagePrefix="PhpMyAdmin\" />
+      <sourceFolder url="file://$MODULE_DIR$/mydb.teco.rw/test/classes" isTestSource="true" packagePrefix="PhpMyAdmin\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/mydb.teco.rw/test/selenium" isTestSource="true" packagePrefix="PhpMyAdmin\Tests\Selenium\" />
+      <sourceFolder url="file://$MODULE_DIR$/mydb.teco.rw/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/carbonphp/carbon-doctrine-types" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
@@ -121,6 +125,62 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/bacon/bacon-qr-code" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/beberlei/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/code-lts/u2f-php-server" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/dasprid/enum" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/fgrosse/phpasn1" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/google/recaptcha" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/league/uri" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/league/uri-interfaces" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/paragonie/sodium_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/phpmyadmin/motranslator" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/phpmyadmin/shapefile" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/phpmyadmin/sql-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/phpmyadmin/twig-i18n-extension" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/pragmarx/google2fa" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/pragmarx/google2fa-qrcode" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/slim/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/spomky-labs/base64url" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/spomky-labs/cbor-php" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/expression-language" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/tecnickcom/tcpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/thecodingmachine/safe" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/web-auth/cose-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/web-auth/metadata-service" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/web-auth/webauthn-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/mydb.teco.rw/vendor/williamdes/mariadb-mysql-kbs" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

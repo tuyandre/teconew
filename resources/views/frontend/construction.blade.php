@@ -10,7 +10,7 @@
 
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active" style="background-image: url(/assets/img/intro-carousel/arc2.jpg)">
+                    <div class="carousel-item active" style="background-image: url(/public/assets/img/intro-carousel/arc2.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown"></h2>
@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/arc3.jpg)">
+                     <div class="carousel-item" style="background-image: url(/public/assets/img/intro-carousel/arc3.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <p class="animate__animated animate__fadeInUp">Landscape design ,Construction supervision</p>
